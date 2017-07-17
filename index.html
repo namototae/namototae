@@ -4,6 +4,20 @@
     <meta charset="utf-8">
     <title>Namototae</title>
     <style>
+    .circular {
+        font-family: "Circular", Times, serif;
+    }
+    .button {
+        background-color: white; /* Green */
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        button-align: center;
+    }
     body{
       margin: 0;
     }
@@ -11,21 +25,40 @@
       margin: 0;
     }
     .header{
+      display: flex;
       background-color: #123456;
       color: white;
       text-align: center;
+
+      padding: 20px;
+      justify-content: space-between;
     }
-
-
+    .second{
+      display: flex;
+    }
 
     </style>
   </head>
   <body>
-    <div class="header">
+
+    <div class="header circular">
+
       <h1 class="title">Namototae</h1>
       <p>is happy</p>
+      <button type="button" class="button" onclick="alert('Hello world!')">Click Me!</button>
     </div>
+    <div class="circular">
+      <h1 class="title">Namototae</h1>
+      <p>is happy</p>
 
 
+    </div>
+<div class="second">
+  <img src="khunta.jpg" alt="khunta">
+<div>
+  <h1 class="title">Namototae is hungry very much </h1>
+  <p> Please give namo a Big Big Big Hamburger </p>
+</div>
+</d>
   </body>
 </html>
