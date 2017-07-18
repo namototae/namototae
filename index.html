@@ -4,61 +4,98 @@
     <meta charset="utf-8">
     <title>Namototae</title>
     <style>
+    input[type=text] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 1px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 10px 5px 10px 10px;
+    margin: 5px 5px 5px 5px;
+
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
     .circular {
-        font-family: "Circular", Times, serif;
+        font-family: "din", Times, serif;
     }
     .button {
+box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
         background-color: white; /* Green */
         border: none;
         color: black;
-        padding: 15px 32px;
+        padding: 5px 20px 10px 20px;
+        margin: 10px 30px 10px 10px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         button-align: center;
     }
+
+
     body{
       margin: 0;
     }
+
     .title{
-      margin: 0;
+      margin: 5px;
     }
     .header{
       display: flex;
-      background-color: #123456;
-      color: white;
+      background-color: #D8D8D8;
+      color: #585F6C;
       text-align: center;
-
-      padding: 20px;
       justify-content: space-between;
     }
     .second{
       display: flex;
+    }
+    .bg{
+      height: 500px;
+      width: width;
+      background-color: powderblue;
     }
 
     </style>
   </head>
   <body>
 
+
     <div class="header circular">
+  <h1 class="title">Namototae</h1>
+    <p style="padding-left:5%">Explore</p>
+      <form>
+        <input type="text" name="search" placeholder="Get/Pat">
+      </form>
 
-      <h1 class="title">Namototae</h1>
-      <p>is happy</p>
-      <button type="button" class="button" onclick="alert('Hello world!')">Click Me!</button>
+      <p style="padding-left:40%">Log in</p>
+      <button type="button" class="button circular" onclick="alert('Hello world!')">Sign Up</button>
     </div>
-    <div class="circular">
-      <h1 class="title">Namototae</h1>
-      <p>is happy</p>
 
 
-    </div>
+
+
 <div class="second">
   <img src="khunta.jpg" alt="khunta">
 <div>
   <h1 class="title">Namototae is hungry very much </h1>
   <p> Please give namo a Big Big Big Hamburger </p>
 </div>
-</d>
+</div>
+
+<div class="bg">
+<p>this is bg</p>
+</div>
+
   </body>
 </html>
